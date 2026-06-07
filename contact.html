@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch. Contact me for project collaborations or academic inquiries.">
+    <title>My Portfolio | Contact</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Contact Me</h1>
+        <nav aria-label="Main Navigation" role="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Send a Message</h2>
+            
+            <form action="#" method="POST" aria-label="Contact Form">
+                <div style="margin-bottom: 1rem;">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                </div>
+                
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Developer Portfolio</p>
+    </footer>
+</body>
+</html>
